@@ -19,8 +19,8 @@ Provides a mechanism to interpret sentences in a language using classes.
 
 * Grammar rules defined as classes
 * expression is the start symbol and literal is a terminal
-* right hand side are instance variables
-** plus, minus, variable, number
+* right hand side are instance variables  
+  plus, minus, variable, number
 
 ## Participants
 
