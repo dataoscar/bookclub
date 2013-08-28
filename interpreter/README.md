@@ -9,13 +9,13 @@ Provides a mechanism to interpret sentences in a language using classes.
 
 ## Implementation
 
->`expression ::= plus | minus | variable | number  
-> plus ::= expression expression '+'  
-> minus ::= expression expression '-'  
-> variable  ::= 'a' | 'b' | 'c' | ... | 'z'  
-> digit = '0' | '1' | ... '9'  
-> number ::= digit | digit number`  
-> -- <cite>Wikipedia[1]</cite>  
+    expression ::= plus | minus | variable | number  
+    plus ::= expression expression '+'  
+    minus ::= expression expression '-'  
+    variable  ::= 'a' | 'b' | 'c' | ... | 'z'  
+    digit = '0' | '1' | ... '9'  
+    number ::= digit | digit number`   
+> -- <cite>Wikipedia[1]</cite>
 
 * Grammar rules defined as classes
 * expression is the start symbol and literal is a terminal
